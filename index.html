@@ -3,15 +3,34 @@
 	<head>
 		<title>Spongy</title>
 		<link rel="icon" href="/images/drjava.png">
+		<link rel="stylesheet" href="style.css">
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">		
-		<link rel="stylesheet" href="style.css">
+
 	</head>
 	<body>
-		<input id="button" type="button" onclick="toggledm" value="MMMMM">
-		
+		<script>
+			var app = document.getElementsByTagName("BODY")[0];
+			if (localStorage.lightMode == "dark") {
+			        app.setAttribute("light-mode", "dark");
+			}
+		</script>
+
+		<div class="container">
+			<button
+			 class="light-mode-button" 
+			aria-label="Toggle Light Mode" 
+			onclick="toggle_light_mode()">
+				<span></span>
+				<span></span>
+			</button> 
+		</div>
+
 		<div class="maintext">
 			<h1>Spongy</h1>
+		</div>
+
+		<div class="socials">
 			<p>socials</p>
 			<a href="https://twitter.com/spongy_flp">Twitter</a>
 			<a href="https://www.instagram.com/spongy.flp/">Instagram</a>
@@ -19,6 +38,20 @@
 			<a href="https://discordapp.com/users/271430521169510401">Discord</a>
 			<a href="https://github.com/sppongy">Github</a>
 		</div>
+
+		<script>
+			function toggle_light_mode() {
+				var app = document.getElementsByTagName("BODY")[0];
+				if (localStorage.lightMode == "dark") {
+					localStorage.lightMode = "light";
+					app.setAttribute("light-mode", "light");
+				} 
+				else {
+					localStorage.lightMode = "dark";
+					app.setAttribute("light-mode", "dark");
+				}		
+			}
+		</script>
 	</body>
 
 
