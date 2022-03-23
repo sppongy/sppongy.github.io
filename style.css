@@ -6,7 +6,7 @@
 br {
 	display: block;
 	content: " ";
-	margin-top: 50px;
+	margin-top: 175px;
 }
 
 .topnav .light-mode-button {
@@ -38,38 +38,38 @@ br {
 
 .maintext {
         position: absolute;
-        top: 20%;  
-        left: 47%; 
+        top: 38%;  
+        left: 26%; 
 	text-align: center;
 	font-size: 40px;
 }
 
 .socials {
 	position: absolute;
-        top: 45%;  
-        left: 24.5%; 
+        bottom: 1%;  
+        left: 36.5%; 
 	align-items: center;
 	text-align: center;
 	white-space: nowrap;
-	word-spacing: 100px;
-	font-size: 75px;
+	word-spacing: 60px;
+	font-size: 40px;
 }
 
 .socials a:link, .socials a:visited {
 	text-decoration: none;
 }
 
-.gasp {    
+.IColL {    
         position: absolute;
-        bottom: 25%;  
-        left: 25%;
+        top: 15%;  
+        left: 5%;
         width: 100px;
         height: 10px;
 }
-.smile {
+.IColR {
         position: absolute;
-        bottom: 25%;  
-        right: 25%;   
+        top: 15%;  
+        right: 10%;   
         width: 100px;
         height: 10px;
 }
