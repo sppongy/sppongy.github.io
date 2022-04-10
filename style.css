@@ -6,7 +6,7 @@
 br {
 	display: block;
 	content: " ";
-	margin-top: 175px;
+	margin-top: 340px;
 }
 
 .topnav .light-mode-button {
@@ -16,7 +16,7 @@ br {
 .topnav h1 {
         position: absolute;
         top: -28px;
-        left: 49.6%;
+        left: 47%;
 	text-align: center;
 	font-size: 35px;
 }
@@ -38,16 +38,32 @@ br {
 
 .maintext {
         position: absolute;
-        top: 38%;  
-        left: 26%; 
+        width: 1067px;
+	height: 1px;
+	top: 11%;  
+        left: 23.5%; 
 	text-align: center;
 	font-size: 40px;
 }
 
+.subtext {
+        position: absolute;
+        bottom: 13%;
+        left: 38%;
+        text-align: center;
+       	font-size: 30px;
+
+}
+.spotify {
+	position: absolute;
+	width: 500px;
+	top: 30%;
+	left: 37%;
+}
 .socials {
 	position: absolute;
         bottom: 1%;  
-        left: 36.5%; 
+        left: 35%; 
 	align-items: center;
 	text-align: center;
 	white-space: nowrap;
@@ -61,14 +77,14 @@ br {
 
 .IColL {    
         position: absolute;
-        top: 15%;  
+        top: 7%;  
         left: 5%;
         width: 100px;
         height: 10px;
 }
 .IColR {
         position: absolute;
-        top: 15%;  
+        top: 7%;  
         right: 10%;   
         width: 100px;
         height: 10px;
