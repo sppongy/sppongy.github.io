@@ -1,196 +1,48 @@
-/* css doc for sppongy.com */
-
-
-/* text formatting */
-
-br {
-	display: block;
-	content: " ";
-	margin-top: 340px;
-}
-
-.topnav .light-mode-button {
-        top: 3px;
-}
- 
-.topnav h1 {
-        position: absolute;
-        top: -28px;
-        left: 47%;
-	text-align: center;
-	font-size: 35px;
-}
- 
-.topnav a {
-	text-decoration: none;
-        position: absolute;
-        top: 6px;
-        right: 10px;
-	text-align: center;
-	padding: 5px 5px;
-}
-.topnav a:link, .topnav a:visited {
-	text-decoration: none;
-        background-color: black;
-        color: white;
-	border-radius: 8px;
-}
-
-.maintext {
-        position: absolute;
-        width: 1067px;
-	height: 1px;
-	top: 11%;  
-        left: 23.5%; 
-	text-align: center;
-	font-size: 40px;
-}
-
-.subtext {
-        position: absolute;
-        bottom: 13%;
-        left: 38%;
-        text-align: center;
-       	font-size: 30px;
-
-}
-.spotify {
-	position: absolute;
-	width: 500px;
-	top: 30%;
-	left: 37%;
-}
-.socials {
-	position: absolute;
-        bottom: 1%;  
-        left: 35%; 
-	align-items: center;
-	text-align: center;
-	white-space: nowrap;
-	word-spacing: 60px;
-	font-size: 40px;
-}
-
-.socials a:link, .socials a:visited {
-	text-decoration: none;
-}
-
-.IColL {    
-        position: absolute;
-        top: 7%;  
-        left: 5%;
-        width: 100px;
-        height: 10px;
-}
-.IColR {
-        position: absolute;
-        top: 7%;  
-        right: 10%;   
-        width: 100px;
-        height: 10px;
-}
-
-
-
-/* dark mode toggle */
-.light-mode-button {
-	background:0;
-	border: 0;
-	box-sizing: border-box;
-	cursor: pointer;
-	height: 20px;
-	width: 50px;
-	position: relative;
-	border: 1px solid rgba(255,255,255,0);
-}
-
-.light-mode-button span:nth-child(1) {
-	position: absolute;
-	top: -10px;
-	left:0;
-	width: 50px;
-	height:20px;
-	border-radius: 10px;
-	background-color: #d6d7db;
-	box-shadow: inset 1px 1px 3px 0 rgb(0 0 0 / 40%);
-	transition: .3s;
-}
-
-.light-mode-button span:nth-child(2) {
-	position: absolute;
-	top: -7px;
-	left: 5px;
-	width: 14px;
-	height: 14px;
-	background-color: #fff;
-	border-radius: 50%;
-	box-shadow: 1px 1px 2px 0 rgb(0 0 0 / 40%);
-	transition: .3s;
-}
-
 body {
-	background-color: #f6f6f6;
-	transition: background-color .3s;
+	background-color: #252627;
 }
 
-body[light-mode=dark] {
-	background-color: #141516;
-	color: #ced4e2;
+.about {
+	display: flex;
+	justify-content: center;
+	margin: 0 -5px;
 }
 
-body[light-mode="dark"] .light-mode-button span:nth-child(1){
-	background-color: #ced4e2;
-	color: #141516;
+.about img {
+	height: 150px;
+	width: 150px;
 }
 
-body[light-mode=dark] .light-mode-button span:nth-child(2) {
-	left: 30px;
-	background-color: #141516;
+.about h1 {
+        color: #8E94F2
 }
 
-
-body[light-mode=dark] .socials a:link{
-        background-color: #141516;
-        color: #ced4e2;
+.about p {
+        font-size: 15px;
+        color: #9FA0FF;
 }
 
-body[light-mode=dark] .socials a:visited{
-        background-color: #141516;
-        color: #ced4e2;
-	box-shadow: 1px 1px 2px 0 rgb(0 0 0 / 40%);
+.links {
+	display: flex;
+	justify-content: center;
 }
 
-body .socials a:link{
-	background-color: ;
-        color: #141516;
+.links a {
+	text-align: center;
+	width: 25%;
+        border: 2px solid #9FA0FF;
+        border-radius: 8px;
+        padding: 10px;
+        margin: 5px; 
+        background: #8E94F2;
 }
 
-body .socials a:visited{
-	background-color: ;
-        color: #141516;
-}
- 
-body .topnav a:link{
-        background-color: #141516;
-        color: #f6f6f6;
-}
- 
-body .topnav a:visited{
-        background-color: #141516;
-        color: #f6f6f6;
-}
- 
-body[light-mode=dark] .topnav a:link{
-        background-color: #ced4e2;
-        color: #141516;
+a:link, a:visited {
+        text-decoration: none;
+        color: #FFF9FB;
 }
 
-body[light-mode=dark] .topnav a:visited{
-        background-color: #ced4e2;
-        color: #141516;
+a:hover, a:active {
+        text-decoration: none;
+        color: #FFF9FB;
 }
- 
-
-
-
-
